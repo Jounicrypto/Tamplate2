@@ -1,0 +1,90 @@
+header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-pic {
+    width: 200px;
+    margin-left: 5%;
+}
+
+nav {
+    overflow: auto;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    margin: 30px;
+    color: gray;
+}
+
+#home-nav {
+    color: white;
+    background-color: #03C3A5;
+    padding: 10px;
+}
+
+.slider-section {
+    position: relative;
+}
+
+.slider-img {
+    width: 100%;
+}
+
+.slider-div {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5%;
+}
+
+main {
+    margin: 30px 5%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section > div {
+    background-color: #03C3A5;
+    width: 23%;
+    border: 2px solid blue;
+
+}
+.second-section > div > img {
+    background-color: white ;
+    padding: 5px;
+    margin: 3px;
+    border-bottom-right-radius: 50%;
+}
+.second-section > div > h4 ,.second-section > div > p{
+    text-align: center;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+.left-section , .right-section{
+    width: 50%;
+}
+.right-section > img {
+    width: 100%;
+}
+.left-section > div{
+    display: flex;
+    justify-content: space-between;
+}
+.left-section > div >img {
+    background-color: rgb(2, 189, 160) ;
+    padding: 10px;
+    margin: 5px 5px 5px 0;
+    width: 50px;
+    height: 50px ;
+}
